@@ -6,14 +6,11 @@ Scripts for an [igc2kmz project](https://github.com/twpayne/igc2kmz) to convert 
 
 It adds coloring for lift/sink, calculate thermals, altitude points et.c. so it's very handy to analyze tracks in google earth afterwards.
 
-
-Based on [Ivan Kravchenko's gists](https://gist.github.com/Iv).
-
-I think repository makes it easier to find and contribute.
+Fork from [Dmitry-Borodin's igc2kmz batch converter](https://github.com/Dmitry-Borodin/igc2kmz-batch-scripts) to port from py2 to py3.
 
 ## Installation
-* Install Python 2.7
-* Download this repo 'git clone --recurse-submodules git@github.com:Dmitry-Borodin/igc2kmz-batch-scripts.git'
+* Install Python 3.*
+* Download this repo 'git clone --recurse-submodules https://github.com/RaudikSA/igc2kmz-batch-scripts_python3.git'
 * For Windows update path in the scripts if needed:
 - igc2kmz.reg -update path to the igc2kmz.bat file and add to registry
 - igc2kmz.bat - update path to igc2kmz project and python (downloaded above)
